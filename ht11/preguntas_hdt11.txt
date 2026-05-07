@@ -1,0 +1,9 @@
+3. El Fenómeno del Shadowing
+En el Momento B, existen dos variables llamadas x en la tabla de símbolos.
+	•	¿Cómo decide su método obtener_tipo_variable cuál utilizar?
+recorre la lista de variables, ya que se guarda por append, entonces practicamente recorre desde la mas interna a externa 
+
+
+	•	¿Qué valor (o tipo) se usaría para x en la línea y = y + x;?
+
+el float porque es el interno que esta dentro de los corchetes en el ambito
